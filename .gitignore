@@ -1,0 +1,31 @@
+# Credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Local dependencies and generated files
+.venv/
+node_modules/
+__pycache__/
+*.py[cod]
+dist/
+*.tsbuildinfo
+.pytest_cache/
+.npm-cache/
+.python-deps/
+*.log
+
+# Runtime data, downloaded materials and browser profiles
+backend/data/
+acceptance/
+*.sqlite3
+*.sqlite3-*
+*.db
+*.pdf
+
+# Operating system files
+.DS_Store
+Thumbs.db
+desktop.ini

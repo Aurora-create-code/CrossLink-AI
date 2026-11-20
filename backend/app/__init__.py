@@ -1,0 +1,1 @@
+"""CrossLink AI backend foundation."""

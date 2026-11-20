@@ -1,0 +1,30 @@
+.report-panel { padding: 36px 0 44px; border-top: 1px solid #dfe6d9; scroll-margin-top: 20px; font-size: 13px; }
+.report-intro { margin: 14px 0; color: #66765f; line-height: 1.9; }
+.report-demo { padding: 14px 18px; border: 1px solid #c8d8be; border-radius: 9px; background: #edf3e6; margin: 14px 0; }
+.report-demo a, .report-download { color: #315b43; font-weight: 650; text-underline-offset: 4px; }
+.report-demo p { margin-top: 5px; font-size: 12px; color: #68745d; }
+.report-meta, .report-feedback { color: #74806d; font-size: 12px; margin: 10px 0; overflow-wrap: anywhere; }
+.report-body, .report-sources { border: 1px solid #dce4d5; border-radius: 11px; padding: 22px; background: #fffefb; margin-top: 18px; }
+.report-row { display: flex; justify-content: space-between; align-items: flex-start; gap: 12px; flex-wrap: wrap; }
+.report-row h3, .report-row h4 { overflow-wrap: anywhere; min-width: 0; }
+.report-panel h4 { font-size: 14px; margin: 18px 0 8px; }
+.report-row h4 { margin: 0; }
+.report-panel h5 { font-size: 13px; margin: 16px 0 7px; }
+.report-body p, .report-source p { line-height: 1.9; white-space: pre-wrap; overflow-wrap: anywhere; }
+.report-warning { margin: 16px 0; padding: 12px 15px; border-left: 4px solid #ae8538; background: #fbf3df; color: #795a24; border-radius: 0 6px 6px 0; }
+.report-changed { margin: 16px 0; padding: 14px 16px; border: 2px solid #b65b39; background: #fff0e8; color: #873b25; border-radius: 7px; }
+.report-sections { margin-top: 22px; padding-top: 5px; border-top: 1px solid #e2e8dc; }
+.report-metadata { display: grid; grid-template-columns: 1fr 1fr; gap: 12px 20px; border-top: 1px solid #e2e8dc; padding-top: 18px; margin: 24px 0; font-size: 12px; }
+.report-metadata dt { color: #78866e; }
+.report-metadata dd { margin: 4px 0 0; overflow-wrap: anywhere; }
+.report-download { display: inline-block; padding: 10px 14px; border: 1px solid #c2d2b6; border-radius: 7px; background: #edf3e6; }
+.report-source { margin-top: 20px; padding-top: 20px; border-top: 1px solid #e0e7d9; }
+.report-panel code { overflow-wrap: anywhere; font-size: 12px; }
+.report-source blockquote { margin: 8px 0 16px; padding: 14px 16px; border-left: 3px solid #91aa7b; background: #f2f5ed; color: #526749; white-space: pre-wrap; overflow-wrap: anywhere; }
+.report-links { display: flex; gap: 12px 22px; flex-wrap: wrap; font-size: 12px; color: #45663b; }
+.report-links a { text-underline-offset: 4px; }
+@media (max-width: 650px) {
+  .report-body, .report-sources { padding: 16px; }
+  .report-metadata { grid-template-columns: 1fr; }
+  .report-panel > .section-heading { flex-wrap: wrap; }
+}
